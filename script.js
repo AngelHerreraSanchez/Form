@@ -4,5 +4,6 @@ function validateForm() {
         document.getElementById("error").innerText = "Username is required";
         return false;
     }
+
     return true;
 }
